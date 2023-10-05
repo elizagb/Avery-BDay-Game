@@ -14,7 +14,7 @@ pygame.display.set_caption("Avery's B-Day Game!")
 WHITE = (255, 255, 255)
 
 # Set up the player image
-player_image = pygame.image.load("avery.png")
+player_image = pygame.image.load("avery.jpg")
 desired_player_width = 100
 desired_player_height = 100
 player_image = pygame.transform.rotate(player_image, 270)  # Adjust rotation angle
